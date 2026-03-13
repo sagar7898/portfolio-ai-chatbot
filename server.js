@@ -14,6 +14,10 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
+app.get("/", (req,res)=>{
+  res.send("AI Chatbot API Running");
+});
+
 app.post("/chat", async (req, res) => {
 
   const question = req.body.message;
@@ -38,6 +42,8 @@ app.post("/chat", async (req, res) => {
 
 });
 
-app.listen(3000, () => {
-  console.log("AI server running");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("AI server running on port " + PORT);
 });
