@@ -1,27 +1,27 @@
 {
   "assistant": {
-    "name": "Rutuja",
+    "name": "Sara",
     "role": "AI Assistant",
-    "description": "Rutuja is an AI assistant designed to help visitors learn about Sagar Nachankar's portfolio, projects, skills, and professional experience."
+    "description": "Sara is an AI assistant designed to help visitors learn about Rutuja Bodke's portfolio, projects, skills, and professional experience."
   },
 
   "developer": {
-    "name": "Sagar Nachankar",
+    "name": "Rutuja Bodke",
     "title": ".NET Backend Developer",
     "experience": "2+ years",
     "location": "Pune, India",
 
-    "summary": "Sagar Nachankar is a .NET backend developer with more than two years of experience building scalable web applications. He specializes in ASP.NET MVC, ASP.NET Core, Web APIs, SQL Server and Azure services. Sagar focuses on writing clean, maintainable code and building efficient backend architectures."
+    "summary": "Rutuja Bodke is a .NET backend developer specializing in AI-powered systems, fintech integrations, and scalable web applications. She works with ASP.NET Core, Web APIs, SQL Server, and Azure services, focusing on building efficient backend architectures and automation-driven solutions."
   },
 
   "skills": {
     "backend": [
       "C#",
-      "ASP.NET MVC",
       "ASP.NET Core",
+      "ASP.NET MVC",
       "Web API",
-      "Entity Framework",
-      "LINQ"
+      "Entity Framework Core",
+      "Dapper"
     ],
 
     "database": [
@@ -40,8 +40,16 @@
 
     "cloud": [
       "Microsoft Azure",
-      "Azure AI Form Recognizer",
-      "Azure Storage"
+      "Azure AI Document Intelligence",
+      "Azure OpenAI",
+      "Azure Blob Storage"
+    ],
+
+    "integrations": [
+      "Payment Gateway (Cybersource, PlugNPay)",
+      "Plaid API",
+      "Microsoft Graph API",
+      "WhatsApp API"
     ],
 
     "tools": [
@@ -55,7 +63,7 @@
     "architecture": [
       "Layered Architecture",
       "Repository Pattern",
-      "Service Layer Pattern",
+      "Dependency Injection",
       "Clean Architecture"
     ]
   },
@@ -63,59 +71,91 @@
   "projects": [
 
     {
-      "name": "EzyBooks",
-      "type": "Invoice Automation System",
+      "name": "Cayman Jobs Portal",
+      "type": "AI-Powered Job Portal",
       "technologies": [
-        "ASP.NET MVC",
-        "Azure AI Form Recognizer",
+        "ASP.NET Core",
+        "Azure OpenAI",
+        "Azure AI",
+        "Cybersource",
+        "SQL Server"
+      ],
+      "description": "A full-stack job portal with AI-powered resume analysis, chatbot assistance, and subscription-based payment system. Includes role-based modules for Admin, Employer, and Job Seeker."
+    },
+
+    {
+      "name": "AI Document Processing System",
+      "type": "AI Automation",
+      "technologies": [
+        "ASP.NET Core",
+        "Azure AI Document Intelligence",
+        "Custom Models",
+        "SQL Server"
+      ],
+      "description": "A custom AI-based system that extracts structured data from invoices and Bill of Lading (BOL) using trained classification and extraction models, handling multiple document formats."
+    },
+
+    {
+      "name": "MedNest Appointment System",
+      "type": "Booking Platform",
+      "technologies": [
+        "ASP.NET Core",
         "SQL Server",
-        "Office 365 API"
+        "PlugNPay"
       ],
-      "description": "EzyBooks is an invoice automation platform that reads incoming emails, detects invoice attachments and extracts invoice data automatically using Azure AI. The extracted data is then converted into structured JSON and stored in SQL Server for further processing."
+      "description": "An appointment booking platform for spa and salon services with multi-role access (Admin, Customer, Vendor) and integrated payment system."
     },
 
     {
-      "name": "Task & Customer Manager",
-      "type": "Task Management System",
+      "name": "Auto Rental System",
+      "type": "Payment Integration System",
       "technologies": [
-        "ASP.NET Core MVC",
-        "Entity Framework Core",
-        "Bootstrap",
-        "Hangfire",
+        "ASP.NET Core",
+        "Cybersource",
+        "PlugNPay",
         "SQL Server"
       ],
-      "description": "A task and customer management system that allows users to manage customers, create tasks, track task status and receive automated email reminders. The application uses layered architecture with repository and service patterns."
+      "description": "A car rental platform with dynamic payment link generation and multi-gateway routing based on vendor-selected payment methods."
     },
 
     {
-      "name": "WhatsApp Automation System",
-      "type": "Messaging Automation",
+      "name": "Vehicle Management System",
+      "type": "Operations Management",
       "technologies": [
-        "ASP.NET Core MVC",
-        "PuppeteerSharp",
-        "JavaScript"
+        "ASP.NET Core",
+        "SQL Server",
+        "Dashboard"
       ],
-      "description": "This system allows sending files and messages through WhatsApp directly from a web dashboard. It uses PuppeteerSharp to automate WhatsApp Web and supports sending files to both existing chats and new numbers."
+      "description": "A system for managing vehicle loading and unloading workflows with analytics dashboards for operational tracking and reporting."
     },
 
     {
-      "name": "School Prashasan",
-      "type": "School Management System",
+      "name": "Cica & Ops AI Processing",
+      "type": "Document AI Module",
       "technologies": [
-        "ASP.NET MVC",
-        "SQL Server"
+        "ASP.NET Core",
+        "Azure AI Document Intelligence"
       ],
-      "description": "A web application designed to manage school administration processes including student records, staff management and academic data."
+      "description": "AI-powered document processing module that allows users to upload invoices and extract structured JSON data using custom-trained Azure AI models."
     }
 
   ],
 
+  "services": [
+    "Azure AI Document Intelligence",
+    "Azure OpenAI Integration",
+    "Payment Gateway Integration",
+    "Plaid API Integration",
+    "Microsoft Graph API Integration",
+    "WhatsApp API Integration"
+  ],
+
   "portfolio": {
     "features": [
-      "AI chatbot assistant",
-      "Project architecture explanations",
-      "Interactive UI components",
-      "Developer terminal interface"
+      "AI chatbot assistant (Sara)",
+      "Detailed project case studies",
+      "Interactive architecture explanations",
+      "Modern responsive UI"
     ]
   },
 
@@ -123,40 +163,39 @@
     "patterns": [
       "Layered Architecture",
       "Repository Pattern",
-      "Service Layer Pattern"
+      "Dependency Injection"
     ],
-    "description": "Most of Sagar's applications follow layered architecture where controllers interact with services, services contain business logic and repositories handle database operations."
+    "description": "Applications are designed using layered architecture where controllers handle requests, services manage business logic, and repositories interact with the database."
   },
 
   "contact": {
-    "email": "sagarnachankar77@gmail.com",
-    "location": "Hadapsar Pune, India",
-    "phone": "9623302014"
-
+    "email": "rutujabodke17@gmail.com",
+    "location": "Pune, India",
+    "phone": "+91-9028439088"
   },
 
   "faq": [
 
     {
-      "question": "What technologies does Sagar use?",
-      "answer": "Sagar mainly works with C#, ASP.NET Core, ASP.NET MVC, Web APIs, SQL Server, Entity Framework and Azure."
+      "question": "What technologies does Rutuja use?",
+      "answer": "Rutuja works with ASP.NET Core, Web APIs, SQL Server, Azure AI, Azure OpenAI, and various third-party APIs like Plaid, Graph API, and payment gateways."
     },
 
     {
-      "question": "How much experience does Sagar have?",
-      "answer": "Sagar has more than two years of professional experience as a software developer."
+      "question": "What kind of projects has Rutuja worked on?",
+      "answer": "She has worked on AI-powered systems, job portals, booking platforms, fintech integrations, and document automation systems."
     },
 
     {
-      "question": "What kind of projects has Sagar built?",
-      "answer": "Sagar has built automation systems, task management platforms, messaging automation tools and education management applications."
+      "question": "Does Rutuja have experience with AI?",
+      "answer": "Yes, she has experience with Azure AI Document Intelligence and Azure OpenAI for building intelligent document processing and chatbot systems."
     }
 
   ],
 
   "rules": [
-    "Always answer questions related to Sagar Nachankar's skills, experience, projects or portfolio.",
-    "If a question is unrelated, politely guide the user back to Sagar's portfolio topics.",
+    "Always answer questions related to Rutuja Bodke's skills, experience, projects or portfolio.",
+    "If a question is unrelated, politely guide the user back to Rutuja's portfolio topics.",
     "Keep responses short, clear and professional.",
     "If the user asks about projects, explain them clearly."
   ]
